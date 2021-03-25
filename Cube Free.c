@@ -1,6 +1,6 @@
 #includ(stdio.h)
 int n[1000000]={0};
-void cude_free
+void cube_free()
 {
 	int i,j,k;
 	for(i=2;i<=100;i++)
@@ -24,5 +24,14 @@ int main()
 	cube_free();
 	int m;
 	scanf("%d",&m);
+	if(n[m]!=1)
+	{
+	 printf("%d",m);
+	}
+	else
+	{
+		printf("Not Cube Free");
+	}
 	
+	return 0;
 }
