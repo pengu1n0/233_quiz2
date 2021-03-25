@@ -10,7 +10,7 @@ int main()
 	{
 	k=i;
 	for(j=k;j<=1000000;j+=k)
-	n[i]=1;
+	n[j]=-1;
 	}
     }
 	k=1;
@@ -21,9 +21,9 @@ int main()
 	}
 	int m;
 	scanf("%d",&m);
-	if(n[m]!=1)
+	if(n[m]!=-1)
 	{
-	 printf("%d",m);
+	 printf("%d",n[m]);
 	}
 	else
 	{
