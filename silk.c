@@ -9,7 +9,7 @@ int main()
 	{
 		for( j=0;j<70;j++)
 		{
-			A[i][j] = 'O';
+			A[i][j] = 'o';
 		}
 	}
 	for(i=0;i<t;i++)
@@ -18,7 +18,7 @@ int main()
 		int x=0;
 		for(j=0;j<r3;j++)
 		{
-			A[r1-1][j+r2-1]='X';
+			A[r1-1][j+r2-1]='x';
 		}
 		
 	}
