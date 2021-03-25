@@ -22,4 +22,13 @@ int main()
 		}
 		
 	}
+	for(i=0;i<r;i++)
+	{
+		for(j=0;j<70;j++)
+		{
+			printf("%c",A[i][j]);
+		}
+		printf("\n");
+	}
+	retrn 0;
 }
