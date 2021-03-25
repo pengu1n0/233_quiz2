@@ -8,27 +8,23 @@ int main()
 	{
 		if(n[i]==0)		
      	{
-	k=i*i*i;
-	for(j=k;j<=1000000;j+=k)
-	n[j]=-1;
+	     k=i*i*i;
+	     for(j=k;j<=1000000;j+=k)
+	       n[j]=-1;
 	    }
     }
 	k=1;
 	for(i=1;i<=1000000;i++)
-	{
-		if(n[i]==0)
+	  if(n[i]==0)
 		n[i]=k++;
-	}
+	
 	int m;
 	scanf("%d",&m);
 	if(n[m]!=-1)
-	{
 	 printf("%d",n[m]);
-	}
 	else
-	{
-		printf("Not Cube Free");
-	}
+	printf("Not Cube Free");
+	
 	
 	return 0;
 }
