@@ -4,7 +4,7 @@ int main()
 	int r,t,r1,r2,r3,i,j;
 	scanf("%d",&r);
 	scanf("%d",&t);
-	char A[r][70]
+	char A[r][70];
 	for(i=0;i<r;i++)
 	{
 		for( j=0;j<70;j++)
@@ -15,10 +15,10 @@ int main()
 	for(i=0;i<t;i++)
 	{
 		scanf("%d %d %d",&r1,&r2,&r3);
-		int x=O;
+		int x=0;
 		for(j=0;j<r3;j++)
 		{
-			A[r1-1][j+2-1]='X';
+			A[r1-1][j+r2-1]='X';
 		}
 		
 	}
@@ -30,5 +30,5 @@ int main()
 		}
 		printf("\n");
 	}
-	retrn 0;
+	return 0;
 }
